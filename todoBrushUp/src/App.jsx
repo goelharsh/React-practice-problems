@@ -26,7 +26,7 @@ function App() {
         todoList.map((todo,index)=>(
           <>
            <li key={index}>{todo}</li>
-           <button onClick={handleDelete(index)}>Delete</button></>
+           <button onClick={()=>handleDelete(index)}>Delete</button></>
         ))
       }
     </ul>
