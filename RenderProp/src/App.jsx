@@ -5,8 +5,8 @@ import './App.css'
 const MyComponent = ({renderProp})=>{
   return (
     <>
-      <div>Hi </div>
-      {renderProp()}
+      <div>Hi, my name is harsh goel </div>
+      {renderProp()} 
     </>
   )
 }
